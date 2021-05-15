@@ -19,10 +19,16 @@ body {
 
 header {
   display: flex;
-  background-color: orangered;
+  background-color: darkslategrey;
   padding: 1rem;
   justify-content: flex-end;
+  text-align: center;
+	
+	margin-bottom: 25px;
+	font-family: "Luckiest Guy", cursive;
+	font-size: 4rem;
 }
+
 
 .search {
   background-color: transparent;
@@ -34,6 +40,7 @@ header {
   padding: 0.5rem 1.5rem;
 
 }
+
 
 .search:focus{
   outline: none;
@@ -48,13 +55,14 @@ header {
 
 
 .movie {
-  background-color:darkorange;
+  background-color:darkslateblue;
   border-radius: 3px;
   box-shadow: 3px 3px 5px rgba( 0 , 0, 0, 0.1 );
   overflow: hidden;
   position: relative;
   margin: 1rem;
   width: 250px;
+  
 }
 
 .movie img {
@@ -113,6 +121,6 @@ header {
 }
 
 .tag.red{
-  color:red;
+  color:lightyellow;
   font-weight: bold;
 }
